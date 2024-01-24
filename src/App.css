@@ -1,0 +1,14 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-image: url('./img/bg.png');
+    background-size: 80% auto; /* Adjust the percentage as needed */
+    background-position: center center;
+    background-attachment: fixed; /* Optional: This keeps the background fixed while scrolling */
+    overflow: hidden; /* Optional: This prevents horizontal scrolling */
+    height: 100%;
+}
